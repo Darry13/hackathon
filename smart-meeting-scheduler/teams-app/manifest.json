@@ -1,0 +1,34 @@
+{
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "id": "12345678-1234-5678-1234-567812345678",
+  "packageName": "com.company.smartmeetingscheduler",
+  "developer": {
+    "name": "Your Name",
+    "websiteUrl": "https://your-company.com"
+  },
+  "description": {
+    "full": "A smart meeting scheduler bot for Teams.",
+    "short": "AI-powered meeting scheduler."
+  },
+  "icons": {
+    "color": "color-icon.png",
+    "outline": "outline-icon.png"
+  },
+  "bots": [
+    {
+      "botId": "your-bot-app-id",
+      "scopes": ["personal", "team"],
+      "commandLists": [
+        {
+          "scopes": ["personal"],
+          "commands": [
+            { "title": "Schedule Meeting", "description": "Finds the best available time for a meeting." }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": ["identity"],
+  "validDomains": ["your-bot-domain.com"]
+}

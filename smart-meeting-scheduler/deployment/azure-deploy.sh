@@ -1,0 +1,1 @@
+az webapp up --name smart-meeting-bot --runtime NODE:18
