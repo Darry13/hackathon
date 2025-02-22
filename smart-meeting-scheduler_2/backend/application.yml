@@ -1,0 +1,4 @@
+azure:
+  tenant-id: YOUR_TENANT_ID
+  client-id: YOUR_CLIENT_ID
+  client-secret: YOUR_CLIENT_SECRET

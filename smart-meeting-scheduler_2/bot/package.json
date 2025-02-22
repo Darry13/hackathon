@@ -1,0 +1,9 @@
+{
+  "name": "meeting-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "botbuilder": "^4.14.3",
+    "dotenv": "^16.0.0",
+    "axios": "^0.27.2"
+  }
+}

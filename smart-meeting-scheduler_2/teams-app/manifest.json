@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "your-app-id",
+  "packageName": "com.smartmeeting.teamsapp",
+  "developer": {
+    "name": "SmartMeeting Team",
+    "websiteUrl": "https://yourwebsite.com"
+  },
+  "description": {
+    "full": "A Teams app to schedule meetings easily.",
+    "short": "Smart Meeting Scheduler"
+  },
+  "icons": {
+    "color": "color-icon.png",
+    "outline": "outline-icon.png"
+  },
+  "bots": [{
+    "botId": "your-bot-id",
+    "isNotificationOnly": false,
+    "scopes": ["personal", "team"]
+  }]
+}
